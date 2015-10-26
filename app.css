@@ -1,0 +1,17 @@
+/*
+	ice More website css
+	Logo color
+	red 		#E50011
+	brown		#595648
+	green		#5BB430
+	green-light	#AACD03
+*/
+body{
+	background-color:#595648;
+}
+.cover{
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;	
+}
