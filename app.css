@@ -20,6 +20,15 @@
 .foods-background{
 	background-color:#595648;
 }
+.info-background{
+	background-image: url('./img/info.jpg');
+	-webkit-filter:	blur(5px);
+	-moz-filter:	blur(5px);
+	-o-filter:		blur(5px);
+	-ms-filter:		blur(5px);
+	filter:			blur(5px);
+	
+}
 .background{
 	  position: fixed;
 	  left: 0;
