@@ -103,3 +103,40 @@ body{
 		top:300px;
 	}
 }
+
+.gmap{
+	border:solid 1px #F0F0F0;
+	-webkit-border-radius:	7px;
+	-moz-border-radius: 	7px;
+	border-radius: 			7px;
+	padding:2px;
+	background-color:#FFF;
+	margin-top:80px;
+	height:450px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.gmap-size{
+	width:100%;
+	height:100%;
+	
+}
+/*	針對手機瀏覽 375*500 (iphone6) */
+@media (max-width: 768px)
+{
+	.gmap{
+		border:solid 0px #F0F0F0;
+		-webkit-border-radius:	none;
+		-moz-border-radius: 	none;
+		border-radius: 			none;
+		padding:0px;
+		width:100%;
+		height:400px;
+		margin-top:150px;	
+	}
+	.mastfoot{
+		display:none;
+	}
+}
